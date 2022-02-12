@@ -12,9 +12,9 @@
 <body>
 
     <div class="container w-25 my-5">
-        <form action="{{ url('/users/2')}}" method="POST" autocomplete="off">
+        <form action="{{ url('/users/1')}}" method="POST" autocomplete="off">
         @csrf
-        @method('PUT')
+        @method('DELETE')
             <div class="form-group">
                 <label for="">Primeiro nome</label>
                 <input type="text" name="first_name" id="first_name" class="form-control" value="Luiz">
